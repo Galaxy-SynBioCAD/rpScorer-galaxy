@@ -30,13 +30,12 @@ if __name__ == "__main__":
     parser.add_argument('-thermo_id', type=str, default='dfG_prime_m')
     params = parser.parse_args()
 
-    rpsbml = rpSBML.rpSBML(params.input)
+    rpsbml = rpSBML(params.input)
     rpsbml.compute_globalscore(params.weight_rp_steps,
                                params.weight_rule_score,
                                params.weight_fba,
                                params.weight_thermo,
                                params.max_rp_steps,
-                               params.topX,
                                params.thermo_ceil,
                                params.thermo_floor,
                                params.fba_ceil,

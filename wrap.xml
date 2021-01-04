@@ -9,7 +9,7 @@
 	</stdio>
   <command detect_errors="exit_code"><![CDATA[
     python '$__tool_directory__/wrap.py'
-      -input '$input_type.input'
+      -input '$input'
       -output '$output'
       -weight_rp_steps '$adv.weight_rp_steps'
       -weight_rule_score '$adv.weight_rule_score'
