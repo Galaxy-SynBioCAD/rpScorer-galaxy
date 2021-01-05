@@ -1,4 +1,4 @@
-<tool id="rpRanker" name="Rank Pathways">
+<tool id="rpScorer" name="Score Pathway">
   <description>Calculate the global score based on thermodynamics, FBA, length, and reaction rule scores of heterologous pathway</description>
   <requirements>
     <requirement type="package">rptools</requirement>
@@ -38,7 +38,6 @@
 			</when>
 		</conditional> -->
 		<param name="input" type="data" format="sbml" label="Input file" />
-    <param name="topX" type="integer" value="10" label="Number of best scoring pathways to return" />
     <param name="max_rp_steps" type="integer" value="15" label="Maximal number of steps (as ran in RetroPath2.0)" />
     <section name="adv" title="Advanced Options" expanded="false">
       <param name="fba_ceil" value="5.0" type="float" label="FBA ceiling" />
