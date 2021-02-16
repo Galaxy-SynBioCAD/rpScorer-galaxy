@@ -20,7 +20,6 @@
       --thermo_ceil       '$adv.thermo_ceil'
       --thermo_floor      '$adv.thermo_floor'
       --max_rp_steps      '$max_rp_steps'
-      --topX              '$topX'
       --pathway_id        '$adv.pathway_id'
       --objective_id      '$adv.objective_id'
       --thermo_id         '$adv.thermo_id'
@@ -55,7 +54,7 @@
 </section>
   </inputs>
   <outputs>
-    <data name="output" format="sbml" label="Ranked Pathways" >
+    <data name="output" format="sbml" label="Scored Pathway" >
       <!-- <change_format>
         <when input="format_type.input_format" value="sbml" format="sbml"/>
       </change_format> -->
