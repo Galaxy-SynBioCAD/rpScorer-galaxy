@@ -51,7 +51,7 @@
       <param name="weight_fba" value="0.324" type="float" label="FBA weight" />
       <param name="weight_thermo" value="0.544" type="float" label="Thermodynamics weight" />
       <param name="weight_rp_steps" value="0.073" type="float" label="Steps weight" />
-</section>
+    </section>
   </inputs>
   <outputs>
     <data name="output" format="sbml" label="Scored Pathway" >
