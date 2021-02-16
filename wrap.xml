@@ -54,7 +54,7 @@
     </section>
   </inputs>
   <outputs>
-    <data name="output" format="sbml" label="Scored Pathway" >
+    <data name="output" format="sbml" label="${tool.name} ${on_string}" >
       <!-- <change_format>
         <when input="format_type.input_format" value="sbml" format="sbml"/>
       </change_format> -->
