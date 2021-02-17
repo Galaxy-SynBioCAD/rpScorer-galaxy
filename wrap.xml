@@ -37,7 +37,7 @@
 				<param name="input" type="data" format="sbml" label="Input file" />
 			</when>
 		</conditional> -->
-		<param name="input" type="data" format="sbml" label="Input file" />
+		<param name="input" type="data" format="xml" label="Input file" />
     <param name="max_rp_steps" type="integer" value="15" label="Maximal number of steps (as ran in RetroPath2.0)" />
     <section name="adv" title="Advanced Options" expanded="false">
       <param name="fba_ceil" value="5.0" type="float" label="FBA ceiling" />
@@ -54,7 +54,7 @@
     </section>
   </inputs>
   <outputs>
-    <data name="output" format="sbml" label="${tool.name} ${on_string}" >
+    <data name="output" format="xml" label="${tool.name} ${on_string}" >
       <!-- <change_format>
         <when input="format_type.input_format" value="sbml" format="sbml"/>
       </change_format> -->
